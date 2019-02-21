@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "98859198e56bb992",
+    "name" : "Test",
+    "title" : "Оформление кредита на путешествия и покупки",
+    "time" : {
+      "start" : 1550768985506,
+      "stop" : 1550769008764,
+      "duration" : 23258
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

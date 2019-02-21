@@ -1,0 +1,557 @@
+{
+  "uid" : "98859198e56bb992",
+  "name" : "Test",
+  "title" : "Оформление кредита на путешествия и покупки",
+  "time" : {
+    "start" : 1550768985506,
+    "stop" : 1550769008764,
+    "duration" : 23258
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 34
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "59e1d279186cedc0",
+    "name" : "achulkov.ExampleTest",
+    "title" : "Example test"
+  },
+  "steps" : [ {
+    "name" : "selectMenuItem[Страхование]",
+    "title" : "Нажатие на кнопку: Страхование",
+    "time" : {
+      "start" : 1550768996873,
+      "stop" : 1550768997028,
+      "duration" : 155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectInsuranceItem[Путешествия и покупки]",
+    "title" : "Нажатие на кнопку: Путешествия и покупки",
+    "time" : {
+      "start" : 1550768997029,
+      "stop" : 1550769003090,
+      "duration" : 6061
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkTextPage[Страхование путешественнико]",
+    "title" : "Проверка наличии текста: Страхование путешественнико",
+    "time" : {
+      "start" : 1550769003090,
+      "stop" : 1550769003213,
+      "duration" : 123
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickBtnRegOnline[Оформить онлайн]",
+    "title" : "Нажатие кнопки: Оформить онлайн",
+    "time" : {
+      "start" : 1550769003214,
+      "stop" : 1550769003369,
+      "duration" : 155
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectMinIsuration[Минимальная]",
+    "title" : "Выбор страховки со значением: Минимальная",
+    "time" : {
+      "start" : 1550769003370,
+      "stop" : 1550769006692,
+      "duration" : 3322
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectRegItem[Оформить]",
+    "title" : "Нажатие на кнопку: Оформить",
+    "time" : {
+      "start" : 1550769006693,
+      "stop" : 1550769006922,
+      "duration" : 229
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "fillFields[{Дата рождения в загранпаспорте=11.02.2019, Серия паспорта=1111, Орган выдавший паспорт=ТП №1 по г. Москва, Ф...]",
+    "title" : "Заполнение полей",
+    "time" : {
+      "start" : 1550769006923,
+      "stop" : 1550769008236,
+      "duration" : 1313
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 12
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillField[Дата рождения в загранпаспорте, 11.02.2019]",
+      "title" : "Заполнение поля Дата рождения в загранпаспорте значением 11.02.2019}",
+      "time" : {
+        "start" : 1550769006923,
+        "stop" : 1550769007096,
+        "duration" : 173
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Серия паспорта, 1111]",
+      "title" : "Заполнение поля Серия паспорта значением 1111}",
+      "time" : {
+        "start" : 1550769007097,
+        "stop" : 1550769007200,
+        "duration" : 103
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Орган выдавший паспорт, ТП №1 по г. Москва]",
+      "title" : "Заполнение поля Орган выдавший паспорт значением ТП №1 по г. Москва}",
+      "time" : {
+        "start" : 1550769007200,
+        "stop" : 1550769007313,
+        "duration" : 113
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия Загранпаспорта, Ivanov]",
+      "title" : "Заполнение поля Фамилия Загранпаспорта значением Ivanov}",
+      "time" : {
+        "start" : 1550769007313,
+        "stop" : 1550769007424,
+        "duration" : 111
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя, Иван]",
+      "title" : "Заполнение поля Имя значением Иван}",
+      "time" : {
+        "start" : 1550769007425,
+        "stop" : 1550769007528,
+        "duration" : 103
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Номер паспорта, 111111]",
+      "title" : "Заполнение поля Номер паспорта значением 111111}",
+      "time" : {
+        "start" : 1550769007529,
+        "stop" : 1550769007625,
+        "duration" : 96
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия, Иванов]",
+      "title" : "Заполнение поля Фамилия значением Иванов}",
+      "time" : {
+        "start" : 1550769007625,
+        "stop" : 1550769007721,
+        "duration" : 96
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя Загранпаспорта, Ivan]",
+      "title" : "Заполнение поля Имя Загранпаспорта значением Ivan}",
+      "time" : {
+        "start" : 1550769007721,
+        "stop" : 1550769007813,
+        "duration" : 92
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Пол, 0]",
+      "title" : "Заполнение поля Пол значением 0}",
+      "time" : {
+        "start" : 1550769007814,
+        "stop" : 1550769007868,
+        "duration" : 54
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Отчество, Иванович]",
+      "title" : "Заполнение поля Отчество значением Иванович}",
+      "time" : {
+        "start" : 1550769007868,
+        "stop" : 1550769007969,
+        "duration" : 101
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата рождения, 01.02.1990]",
+      "title" : "Заполнение поля Дата рождения значением 01.02.1990}",
+      "time" : {
+        "start" : 1550769007969,
+        "stop" : 1550769008101,
+        "duration" : 132
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата выдачи, 15.02.2008]",
+      "title" : "Заполнение поля Дата выдачи значением 15.02.2008}",
+      "time" : {
+        "start" : 1550769008102,
+        "stop" : 1550769008236,
+        "duration" : 134
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkFillFields[{Дата рождения в загранпаспорте=11.02.2019, Серия паспорта=1111, Орган выдавший паспорт=ТП №1 по г. Моск...]",
+    "title" : "Поля заполнено верно",
+    "time" : {
+      "start" : 1550769008236,
+      "stop" : 1550769008612,
+      "duration" : 376
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 12
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFillField[Дата рождения в загранпаспорте, 11.02.2019]",
+      "title" : "Заполнение поля Дата рождения в загранпаспорте значением 11.02.2019",
+      "time" : {
+        "start" : 1550769008237,
+        "stop" : 1550769008272,
+        "duration" : 35
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Серия паспорта, 1111]",
+      "title" : "Заполнение поля Серия паспорта значением 1111",
+      "time" : {
+        "start" : 1550769008272,
+        "stop" : 1550769008303,
+        "duration" : 31
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Орган выдавший паспорт, ТП №1 по г. Москва]",
+      "title" : "Заполнение поля Орган выдавший паспорт значением ТП №1 по г. Москва",
+      "time" : {
+        "start" : 1550769008303,
+        "stop" : 1550769008334,
+        "duration" : 31
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия Загранпаспорта, Ivanov]",
+      "title" : "Заполнение поля Фамилия Загранпаспорта значением Ivanov",
+      "time" : {
+        "start" : 1550769008334,
+        "stop" : 1550769008365,
+        "duration" : 31
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя, Иван]",
+      "title" : "Заполнение поля Имя значением Иван",
+      "time" : {
+        "start" : 1550769008365,
+        "stop" : 1550769008395,
+        "duration" : 30
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Номер паспорта, 111111]",
+      "title" : "Заполнение поля Номер паспорта значением 111111",
+      "time" : {
+        "start" : 1550769008395,
+        "stop" : 1550769008423,
+        "duration" : 28
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия, Иванов]",
+      "title" : "Заполнение поля Фамилия значением Иванов",
+      "time" : {
+        "start" : 1550769008424,
+        "stop" : 1550769008456,
+        "duration" : 32
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя Загранпаспорта, Ivan]",
+      "title" : "Заполнение поля Имя Загранпаспорта значением Ivan",
+      "time" : {
+        "start" : 1550769008456,
+        "stop" : 1550769008487,
+        "duration" : 31
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Пол, 0]",
+      "title" : "Заполнение поля Пол значением 0",
+      "time" : {
+        "start" : 1550769008488,
+        "stop" : 1550769008524,
+        "duration" : 36
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Отчество, Иванович]",
+      "title" : "Заполнение поля Отчество значением Иванович",
+      "time" : {
+        "start" : 1550769008525,
+        "stop" : 1550769008553,
+        "duration" : 28
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата рождения, 01.02.1990]",
+      "title" : "Заполнение поля Дата рождения значением 01.02.1990",
+      "time" : {
+        "start" : 1550769008553,
+        "stop" : 1550769008582,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата выдачи, 15.02.2008]",
+      "title" : "Заполнение поля Дата выдачи значением 15.02.2008",
+      "time" : {
+        "start" : 1550769008583,
+        "stop" : 1550769008612,
+        "duration" : 29
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "btnSendApp[Продолжить]",
+    "title" : "Нажатие кнопки: Продолжить",
+    "time" : {
+      "start" : 1550769008612,
+      "stop" : 1550769008710,
+      "duration" : 98
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkErrorMessageField[Заполнены не все обязательные поля]",
+    "title" : "Проверка на наличие сообщения: ",
+    "time" : {
+      "start" : 1550769008711,
+      "stop" : 1550769008763,
+      "duration" : 52
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "10676@DESKTOP-LSKK0O3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "achulkov.ExampleTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LSKK0O3"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

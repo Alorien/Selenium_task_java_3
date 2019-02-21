@@ -1,0 +1,12 @@
+pages\BasePage.class
+pages\InsurationPage.class
+pages\MinInsurationPage.class
+steps\MinInsurationPageSteps.class
+util\TestProperties.class
+steps\SendAppPageSteps.class
+steps\MainPageSteps.class
+pages\SendAppPage.class
+util\AllureListener.class
+steps\BaseSteps.class
+pages\MainPage.class
+steps\InsurationPageSteps.class

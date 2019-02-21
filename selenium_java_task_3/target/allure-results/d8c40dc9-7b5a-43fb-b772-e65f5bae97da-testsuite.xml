@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550768985489" stop="1550769009469" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>achulkov.ExampleTest</name>
+    <test-cases>
+        <test-case start="1550768985506" stop="1550769008764" status="passed">
+            <name>Test</name>
+            <title>Оформление кредита на путешествия и покупки</title>
+            <steps>
+                <step start="1550768996873" stop="1550768997028" status="passed">
+                    <name>selectMenuItem[Страхование]</name>
+                    <title>Нажатие на кнопку: Страхование</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550768997029" stop="1550769003090" status="passed">
+                    <name>selectInsuranceItem[Путешествия и покупки]</name>
+                    <title>Нажатие на кнопку: Путешествия и покупки</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769003090" stop="1550769003213" status="passed">
+                    <name>checkTextPage[Страхование путешественнико]</name>
+                    <title>Проверка наличии текста: Страхование путешественнико</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769003214" stop="1550769003369" status="passed">
+                    <name>clickBtnRegOnline[Оформить онлайн]</name>
+                    <title>Нажатие кнопки: Оформить онлайн</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769003370" stop="1550769006692" status="passed">
+                    <name>selectMinIsuration[Минимальная]</name>
+                    <title>Выбор страховки со значением: Минимальная</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769006693" stop="1550769006922" status="passed">
+                    <name>selectRegItem[Оформить]</name>
+                    <title>Нажатие на кнопку: Оформить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769006923" stop="1550769008236" status="passed">
+                    <name>fillFields[{Дата рождения в загранпаспорте=11.02.2019, Серия паспорта=1111, Орган выдавший паспорт=ТП №1 по г. Москва, Ф...]</name>
+                    <title>Заполнение полей</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769006923" stop="1550769007096" status="passed">
+                            <name>fillField[Дата рождения в загранпаспорте, 11.02.2019]</name>
+                            <title>Заполнение поля Дата рождения в загранпаспорте значением 11.02.2019}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007097" stop="1550769007200" status="passed">
+                            <name>fillField[Серия паспорта, 1111]</name>
+                            <title>Заполнение поля Серия паспорта значением 1111}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007200" stop="1550769007313" status="passed">
+                            <name>fillField[Орган выдавший паспорт, ТП №1 по г. Москва]</name>
+                            <title>Заполнение поля Орган выдавший паспорт значением ТП №1 по г. Москва}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007313" stop="1550769007424" status="passed">
+                            <name>fillField[Фамилия Загранпаспорта, Ivanov]</name>
+                            <title>Заполнение поля Фамилия Загранпаспорта значением Ivanov}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007425" stop="1550769007528" status="passed">
+                            <name>fillField[Имя, Иван]</name>
+                            <title>Заполнение поля Имя значением Иван}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007529" stop="1550769007625" status="passed">
+                            <name>fillField[Номер паспорта, 111111]</name>
+                            <title>Заполнение поля Номер паспорта значением 111111}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007625" stop="1550769007721" status="passed">
+                            <name>fillField[Фамилия, Иванов]</name>
+                            <title>Заполнение поля Фамилия значением Иванов}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007721" stop="1550769007813" status="passed">
+                            <name>fillField[Имя Загранпаспорта, Ivan]</name>
+                            <title>Заполнение поля Имя Загранпаспорта значением Ivan}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007814" stop="1550769007868" status="passed">
+                            <name>fillField[Пол, 0]</name>
+                            <title>Заполнение поля Пол значением 0}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007868" stop="1550769007969" status="passed">
+                            <name>fillField[Отчество, Иванович]</name>
+                            <title>Заполнение поля Отчество значением Иванович}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769007969" stop="1550769008101" status="passed">
+                            <name>fillField[Дата рождения, 01.02.1990]</name>
+                            <title>Заполнение поля Дата рождения значением 01.02.1990}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008102" stop="1550769008236" status="passed">
+                            <name>fillField[Дата выдачи, 15.02.2008]</name>
+                            <title>Заполнение поля Дата выдачи значением 15.02.2008}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769008236" stop="1550769008612" status="passed">
+                    <name>checkFillFields[{Дата рождения в загранпаспорте=11.02.2019, Серия паспорта=1111, Орган выдавший паспорт=ТП №1 по г. Моск...]</name>
+                    <title>Поля заполнено верно</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769008237" stop="1550769008272" status="passed">
+                            <name>checkFillField[Дата рождения в загранпаспорте, 11.02.2019]</name>
+                            <title>Заполнение поля Дата рождения в загранпаспорте значением 11.02.2019</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008272" stop="1550769008303" status="passed">
+                            <name>checkFillField[Серия паспорта, 1111]</name>
+                            <title>Заполнение поля Серия паспорта значением 1111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008303" stop="1550769008334" status="passed">
+                            <name>checkFillField[Орган выдавший паспорт, ТП №1 по г. Москва]</name>
+                            <title>Заполнение поля Орган выдавший паспорт значением ТП №1 по г. Москва</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008334" stop="1550769008365" status="passed">
+                            <name>checkFillField[Фамилия Загранпаспорта, Ivanov]</name>
+                            <title>Заполнение поля Фамилия Загранпаспорта значением Ivanov</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008365" stop="1550769008395" status="passed">
+                            <name>checkFillField[Имя, Иван]</name>
+                            <title>Заполнение поля Имя значением Иван</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008395" stop="1550769008423" status="passed">
+                            <name>checkFillField[Номер паспорта, 111111]</name>
+                            <title>Заполнение поля Номер паспорта значением 111111</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008424" stop="1550769008456" status="passed">
+                            <name>checkFillField[Фамилия, Иванов]</name>
+                            <title>Заполнение поля Фамилия значением Иванов</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008456" stop="1550769008487" status="passed">
+                            <name>checkFillField[Имя Загранпаспорта, Ivan]</name>
+                            <title>Заполнение поля Имя Загранпаспорта значением Ivan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008488" stop="1550769008524" status="passed">
+                            <name>checkFillField[Пол, 0]</name>
+                            <title>Заполнение поля Пол значением 0</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008525" stop="1550769008553" status="passed">
+                            <name>checkFillField[Отчество, Иванович]</name>
+                            <title>Заполнение поля Отчество значением Иванович</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008553" stop="1550769008582" status="passed">
+                            <name>checkFillField[Дата рождения, 01.02.1990]</name>
+                            <title>Заполнение поля Дата рождения значением 01.02.1990</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1550769008583" stop="1550769008612" status="passed">
+                            <name>checkFillField[Дата выдачи, 15.02.2008]</name>
+                            <title>Заполнение поля Дата выдачи значением 15.02.2008</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769008612" stop="1550769008710" status="passed">
+                    <name>btnSendApp[Продолжить]</name>
+                    <title>Нажатие кнопки: Продолжить</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1550769008711" stop="1550769008763" status="passed">
+                    <name>checkErrorMessageField[Заполнены не все обязательные поля]</name>
+                    <title>Проверка на наличие сообщения: </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-LSKK0O3"/>
+                <label name="thread" value="10676@DESKTOP-LSKK0O3.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

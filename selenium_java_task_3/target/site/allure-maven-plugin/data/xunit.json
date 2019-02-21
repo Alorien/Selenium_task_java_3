@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1550768985506,
+    "stop" : 1550769008764,
+    "duration" : 23258
+  },
+  "testSuites" : [ {
+    "uid" : "59e1d279186cedc0",
+    "name" : "achulkov.ExampleTest",
+    "title" : "Example test",
+    "time" : {
+      "start" : 1550768985506,
+      "stop" : 1550769008764,
+      "duration" : 23258
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "98859198e56bb992",
+      "name" : "Test",
+      "title" : "Оформление кредита на путешествия и покупки",
+      "time" : {
+        "start" : 1550768985506,
+        "stop" : 1550769008764,
+        "duration" : 23258
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
